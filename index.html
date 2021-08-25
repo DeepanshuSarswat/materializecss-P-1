@@ -1,0 +1,281 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+    />
+    <title>Deepanshu</title>
+    <style>
+      header {
+        background-image: url(./img/man.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+      }
+      
+      .respo {
+        width: 100%;
+      }
+      .section {
+        padding: 40px;
+      }
+      @media screen and (max-width: 670px) {
+        header {
+          min-height: 500px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar -->
+    <header>
+      <nav class="nav-wrapper transparent">
+        <div class="container">
+          <a href="#" class="brand-logo"
+            >Deepanshu <span class="hide-on-med-and-down">'S</span
+            ><span class="hide-on-med-and-down">blog</span>
+          </a>
+          <a href="#" class="sidenav-trigger" data-target="mobile-links">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">Photo's</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="" class="btn-floating btn-small indigo darken-4"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="" class="btn-floating btn-small indigo darken-4"><i class="fab fa-facebook"></i></a></li>
+          </ul>
+        </div>
+      </nav>
+      <ul class="sidenav" id="mobile-links">
+        <li><a href="#">Photo's</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+       
+      </ul>
+    </header>
+    <!-- photo / grid -->
+    <div class="container section" id="photos">
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="https://live.staticflickr.com/3103/3210435112_72dab5665c_b.jpg"
+            class="respo materialboxed"
+            alt=""
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-darken-4">Bikaner</h2>
+          <p>
+            Bikaner is a city in the north Indian state of Rajasthan, east of
+            the border with Pakistan.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4 push-l7 offset-l1">
+          <img
+            src="https://cdn.audleytravel.com/1050/749/79/1324943-city-palace-udaipur.webp"
+            class="respo materialboxed"
+            alt=""
+            width="650"
+          />
+        </div>
+        <div class="col s12 l6 pull-l5 offset-l1 right-align">
+          <h2 class="indigo-text text-darken-4">Udaipur</h2>
+          <p>
+            Udaipur, formerly the capital of the Mewar Kingdom, is a city in the
+            western Indian state of Rajasthan. Founded by Maharana Udai Singh II
+            in 1559.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 l4">
+          <img
+            src="https://www.bizevdeyokuz.com/wp-content/uploads/jodhpur-hindistan-kale.jpg"
+            class="respo materialboxed"
+            alt=""
+          />
+        </div>
+        <div class="col s12 l6 offset-l1">
+          <h2 class="indigo-text text-darken-4">Jodhpur</h2>
+          <p>
+            Jodhpur is a city in the Thar Desert of the northwest Indian state
+            of Rajasthan.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="./img/street.jpg" /></div>
+    </div>
+    <!-- services / tabs -->
+    <div class="container section" id="Services">
+      <div class="row">
+        <div class="col s12 l4">
+          <h2 class="indigo-text text-darken-4">What I do...</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui
+            tempora fugiat maxime.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+            veritatis vitae laborum
+          </p>
+        </div>
+        <div class="col s12 l6 offset-l2">
+          <ul class="tabs" id="tabs-swipe-demo">
+            <li class="tab col s6">
+              <a href="#photography" class="active indigo-text text-darken-4"
+                >Photography</a
+              >
+              >
+            </li>
+            <li class="tab col s6">
+              <a href="#editing" class="indigo-text text-darken-4">Editing</a>
+            </li>
+          </ul>
+          <div id="photography" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">PHOTOGRAPHY</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+              expedita rem ea cupiditate!
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+              aliquam magnam exercitationem deleniti quibusdam quis, repellendus
+              deserunt quod cumque eveniet corrupti dicta qui voluptates natus
+              minima dolores dolorem adipisci velit.
+            </p>
+          </div>
+
+          <div id="editing" class="col s12">
+            <p class="flow-text indigo-text text-darken-4">EDITING</p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+              expedita rem ea cupiditate!
+            </p>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed
+              aliquam magnam exercitationem deleniti quibusdam quis.repellendus
+              deserunt quod cumque eveniet corrupti dicta qui voluptates natus
+              minima dolores dolorem adipisci velit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- parallax -->
+    <div class="parallax-container">
+      <div class="parallax"><img src="./img/stars.jpg" /></div>
+    </div>
+    <!-- contact form -->
+    <section class="section container" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">Get In Touch</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+            voluptatibus voluptates voluptatem ipsam necessitatibus!
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore
+            expedita reiciendis saepe dolores atque quod ea, corrupti placeat
+            temporibus dolorum.
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="
+    ">
+    <div class="row">
+      <div class="input-field ">
+        <i class="material-icons prefix">account_circle</i>
+<input  id="first_name" type="text" class="validate">
+          <label for="first_name">Your Email</label>
+        
+      </div>
+
+      <div class="input-field ">
+        <i class="material-icons prefix">chat</i>
+        <textarea  id="textarea1" class="materialize-textarea"></textarea>
+        <label for="textarea1">Message</label>
+   
+        
+      </div>
+    
+
+      <div class="input-field ">
+        <i class="material-icons prefix">today</i>
+        <!-- <textarea  id="textarea1" class="materialize-textarea"></textarea>
+        <label for="textarea1">Message</label> -->
+        <input type="text" class="datepicker">
+   
+        
+      </div>
+
+      <div class="services">
+        <p>
+          <label>
+            <input type="checkbox" />
+            <span>Photography</span>
+          </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" />
+            <span>Photo Editing</span>
+          </label>
+        </p>
+      </div>
+
+      <div class="input-field center">
+        <button class="btn waves-effect">Submit</button>
+      </div>
+  </form>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".sidenav").sidenav();
+      });
+      $(document).ready(function () {
+        $(".materialboxed").materialbox();
+      });
+      $(document).ready(function () {
+        $(".parallax").parallax();
+      });
+      $(document).ready(function () {
+        $(".tabs").tabs();
+      });
+      $(document).ready(function(){
+    $('.datepicker').datepicker();
+  });
+    </script>
+  </body>
+</html>
